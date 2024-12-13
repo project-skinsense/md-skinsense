@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Lapisan untuk stroke bagian atas -->
+    <item>
+        <shape>
+            <solid android:color="@color/light_gray" />
+            <corners
+                android:topLeftRadius="12dp"
+                android:topRightRadius="12dp" />
+            <size android:height="5dp" /> <!-- Tinggi stroke -->
+        </shape>
+    </item>
+
+    <!-- Lapisan untuk bentuk utama -->
+    <item android:top="3dp"> <!-- Geser bentuk utama ke bawah agar stroke terlihat -->
+        <shape>
+            <solid android:color="@color/white" />
+            <corners
+                android:topLeftRadius="12dp"
+                android:topRightRadius="12dp" />
+        </shape>
+    </item>
+
+</layer-list>
